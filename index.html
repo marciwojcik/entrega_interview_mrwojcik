@@ -1,0 +1,15 @@
+<html><body><h1>Hello World!</h1>
+<p>Entrega Assessment</p>
+
+<!-- Reference Cited: http://www.webdeveloper.com/forum/showthread.php?118292-Adding-current-time-and-date-to-web-site -->
+<script type="text/javascript">
+document.write ('<p>Current time is: <span id="date-time">', new Date().toLocaleString(), '<\/span>.<\/p>')
+if (document.getElementById) onload = function () {
+	setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+}
+</script>
+
+<p>Marci Wojcik</p>
+<p>This is the default web page for this server.</p>
+<p>The web server software is running but no content has been added, yet.</p>
+</body></html>
